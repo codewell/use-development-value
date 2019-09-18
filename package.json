@@ -1,21 +1,21 @@
 {
-  "name": "@codewell/use-development-url",
-  "version": "0.0.1",
-  "description": "Switch between dev and production urls",
+  "name": "@codewell/use-development-value",
+  "version": "1.0.0",
+  "description": "Switch between dev and production values",
   "main": "src/index.js",
   "scripts": {
     "test": "jest"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/codewell/use-development-url.git"
+    "url": "git+https://github.com/codewell/use-development-value.git"
   },
   "author": "Filip Johansson",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/codewell/use-development-url/issues"
+    "url": "https://github.com/codewell/use-development-value/issues"
   },
-  "homepage": "https://github.com/codewell/use-development-url#readme",
+  "homepage": "https://github.com/codewell/use-development-value#readme",
   "devDependencies": {
     "jest": "^24.9.0"
   }

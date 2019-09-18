@@ -1,19 +1,18 @@
-# use-development-url
+# @codewell/use-development-value
 Switch between urls in development mode and production mode
 
 ## Installation
 ```
-npm install @codewell/use-development-url
+npm install @codewell/use-development-value
 ```
 
 ## Basic usage
 ```JavaScript
-import useDevelopmentUrl from '@codewell/use-development-url';
+import useDevelopmentValue from '@codewell/use-development-value';
 
-const originalUrl = '/endpoint';
-const developmentUrl = '/dev-endpoint';
+const originalValue = 'foo';
+const developmentValue = 'dev-foo';
 
 // Uses process.env.NODE_ENV to switch between the urls
-const url = useDevelopmentUrl(originalUrl, developmentUrl);
-
+const value = useDevelopmentValue(originalValue, developmentValue);
 ```

@@ -1,14 +1,14 @@
 /**
- * Use different url in production and development mode
- * @param {string} originalUrl 
- * @param {string} developmentUrl 
+ * Use different values in production and development mode
+ * @param {any} originalValue 
+ * @param {any} developmentValue 
  */
-const useDevelopmentUrl = (originalUrl, developmentUrl) => {
+const useDevelopmentValue = (originalValue, developmentValue) => {
   const { NODE_ENV } = process.env;
   if (NODE_ENV === 'development') {
-    return developmentUrl;
+    return developmentValue;
   }
-  return originalUrl;
+  return originalValue;
 };
 
-module.exports = useDevelopmentUrl;
+module.exports = useDevelopmentValue;
