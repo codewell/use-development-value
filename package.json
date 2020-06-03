@@ -17,6 +17,6 @@
   },
   "homepage": "https://github.com/codewell/use-development-value#readme",
   "devDependencies": {
-    "jest": "^24.9.0"
+    "jest": "^26.0.1"
   }
 }
